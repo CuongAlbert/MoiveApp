@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.title {
+  color: red;
+  font-weight: 800;
+  font-size: 22px;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  color: rgb(114, 114, 114);
+  padding-right: 20px;
+  padding-top: 10px;
+  transform: scale(1.1);
+}
+
+.title:hover,
+.icon :hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 0.8s;
+}
+
+.scroll {
+  background-color: black;
+}

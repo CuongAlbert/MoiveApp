@@ -1,0 +1,72 @@
+.list {
+  padding-top: 20px;
+  width: 100%;
+  overflow-x: auto;
+  position: relative;
+  z-index: 20;
+}
+h2 {
+  color: aliceblue;
+  padding-left: 20px;
+}
+
+.posters {
+  width: 4600px;
+  margin-bottom: 100px;
+}
+
+.originals {
+  width: 3800px;
+  opacity: 1;
+}
+.posters:hover .poster {
+  opacity: 0.6;
+}
+
+.posters .poster:hover {
+  transition: all 0.6s ease-in-out;
+  transform: scale(1.1);
+  z-index: 10;
+  opacity: 1;
+}
+
+.originals:hover .poster {
+  opacity: 0.6;
+}
+
+.originals .poster:hover {
+  opacity: 1;
+  transition: all 0.6s ease-in-out;
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+.poster {
+  width: 220px;
+  padding: 5px;
+  cursor: pointer;
+  z-index: 20;
+  opacity: 1;
+}
+
+.originals .poster {
+  width: 180px;
+}
+
+/* .poster:hover {
+  transition: all 0.6s ease-in-out;
+  transform: scale(1.1);
+  z-index: 10;
+  opacity: 1;
+} */
+
+.list::-webkit-scrollbar {
+  height: 6px;
+  cursor: pointer;
+}
+.list::-webkit-scrollbar-track {
+  background: rgb(56, 56, 56); /* Màu nền ngoài của thanh scrollbar */
+}
+.list::-webkit-scrollbar-thumb {
+  background-color: #161616; /* Màu của thanh cuộn (scroll thumb) */
+}

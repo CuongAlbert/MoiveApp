@@ -1,0 +1,55 @@
+.container {
+  position: relative;
+  top: 80px;
+  height: 200px;
+  width: 32%;
+  background-color: aliceblue;
+  margin: 0 auto;
+}
+
+.search {
+  display: flex;
+  height: 50px;
+}
+
+.icon {
+  color: rgb(114, 114, 114);
+  transform: scale(1.1);
+  margin: 20px;
+}
+
+input {
+  height: 45px;
+  width: 85%;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: none;
+  background-color: aliceblue;
+  outline: none;
+  font-size: 25px;
+}
+
+.container hr {
+  height: 4px;
+  color: #33e0e0;
+  border: none;
+  background-color: #33e0e0;
+}
+
+.btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+button {
+  background-color: aliceblue;
+  color: black;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: #33e0e0;
+  color: aliceblue;
+  cursor: pointer;
+}
